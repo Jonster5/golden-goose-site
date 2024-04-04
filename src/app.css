@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-size: 24px;
+}
+
+body {
+	@apply w-full h-full bg-black overflow-hidden;
+}
+
+:root {
+	@apply outline-2 outline-emerald-400;
+}
