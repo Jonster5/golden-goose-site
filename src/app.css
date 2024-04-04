@@ -7,9 +7,8 @@
 }
 
 body {
-	@apply w-full h-full bg-black overflow-hidden;
-}
-
-:root {
-	@apply outline-2 outline-emerald-400;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	overflow: hidden;
 }
