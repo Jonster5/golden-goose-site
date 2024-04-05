@@ -85,7 +85,7 @@ const show = (index: number) => () => {
 		class="flex flex-col absolute z-20 w-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#000000cc] rounded-md left-1/2 top-1/2 text-white">
 		<button class="w-4 h-4 ml-auto mr-1 text-white top-2 right-2" on:click={() => ($show_modal = false)}>X</button>
 		<h3 class="w-full text-2xl font-bold text-center text-yellow-400">{$show_title}</h3>
-		<p class="m-6 text-md" >{$show_text}</p>
+		<p class="m-6 text-sm" >{$show_text}</p>
 	</div>
 {/if}
 
